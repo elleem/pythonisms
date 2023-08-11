@@ -39,4 +39,4 @@ class LinkedList:
             current = current.next
 
     def to_list(self):
-        return [value for value in self]
+        return list(self)
